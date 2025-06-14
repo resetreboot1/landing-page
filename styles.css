@@ -14,6 +14,11 @@ body{
 
 .lh{
     align-self:center;
+    display:flex;
+    gap :15px;
+    max-height: 160px;
+    padding:16px;
+
 }
 
 .uh{
@@ -21,14 +26,14 @@ body{
     align-self: center;
     align-items: center;
     justify-content: space-between;
-    width:1290px;
-    flex-shrink:1;
+    flex:auto;
     padding:10px;
     padding-top: 0%;
+    align-self: stretch;
 
 }
 
-img,
+.logo,
 #hlt{
    height:24px;
    width:auto;
@@ -43,6 +48,7 @@ ul{
     padding: 0;
     margin:0;
     display: flex;
+    gap: 12px;
 }
 
 a{
@@ -52,4 +58,18 @@ a{
 .uhl{
     display:flex;
     align-items: center;
+    gap:12px;
+}
+
+#sanatan{
+    flex: auto;
+    width: auto;
+    height:155px;
+}
+
+#left-lh{
+    flex: auto;
+    height: 155px;
+    width:244px;
+    
 }
