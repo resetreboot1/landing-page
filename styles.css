@@ -1,7 +1,8 @@
 body{
-    font-family:'Roboto';
+    font-family:'Roboto' sans-serif;
     display:flex;
     flex-direction:column;
+    margin:0%;
 
 }
 
@@ -114,6 +115,7 @@ h3 {
    font-size: 36px;
    font-weight: 900;
    color:#1f2937;
+   margin-top: 0%;
 }
 
 
@@ -135,6 +137,38 @@ h3 {
 }
 
 .secondary-text{
-    font-size:12px;
+    font-size:13px;
     text-align:center;
+}
+
+.quote-section{
+    display:flex;
+    flex-direction:column;
+    background-color:#e5e7eb;
+    padding:50px;
+}
+
+#author{
+    margin-left:60%;
+    margin-top: 0%;
+    text-align: start;
+    font-weight: 900;
+}
+
+#quote{
+    width:500px;
+    align-self:center;
+    text-align: start;
+    font-size: 26px;
+    font-weight:200;
+    margin-bottom:10px;
+}
+
+p{
+    margin:0;
+}
+
+.Products-section{
+    padding:50px
+
 }
