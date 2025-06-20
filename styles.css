@@ -99,6 +99,7 @@ a,
 .secondary-h {
     font-size:18px;
     color:#e5e7eb;
+    margin-top: 3px;
 
 }
 
@@ -108,6 +109,7 @@ a,
     border-style: none;
     border-radius: 5px;
     padding:5px 18px;
+    margin-top: 8px;
 }
 
 h3 {
@@ -171,4 +173,46 @@ p{
 .Products-section{
     padding:50px
 
+}
+
+.signup{
+    display:flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    padding: 70px 150px;
+
+
+}
+
+.box{
+    background-color: #3882f6;
+    display:flex;
+    padding: 15px 100px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius:5px;
+}
+
+#sign-up{
+    align-self: center;
+}
+
+#sign-up-text{
+    margin-bottom: 22.1px;
+}
+
+h4{
+    margin-bottom: 0;
+    font-size: 25px;
+    font-weight: 800;
+    color:#e5e7eb;
+}
+
+#sign-up{
+    background-color: #3882f6;
+    border: #f9faf8 solid 2.5px;
+    border-radius: 8px;
+    padding:5px 22px;
+    color:#e5e7eb;
 }
