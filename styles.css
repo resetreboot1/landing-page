@@ -192,6 +192,7 @@ p{
     align-items: center;
     justify-content: space-evenly;
     border-radius:5px;
+    gap:20px;
 }
 
 #sign-up{
@@ -214,5 +215,14 @@ h4{
     border: #f9faf8 solid 2.5px;
     border-radius: 8px;
     padding:5px 22px;
+    color:#e5e7eb;
+}
+
+.footer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding:36px;
+    background-color:#1f2937 ;
     color:#e5e7eb;
 }
