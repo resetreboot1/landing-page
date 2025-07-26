@@ -226,3 +226,20 @@ h4{
     background-color:#1f2937 ;
     color:#e5e7eb;
 }
+
+
+@media screen and (max-width: 726px) {
+    .Products{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+
+
+@media screen and (max-width: 1180px) {
+    .lh{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
