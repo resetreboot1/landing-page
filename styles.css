@@ -65,7 +65,7 @@ a{
     gap:12px;
 }
 
-#sanatan{
+.sanatan{
     display:flex;
     flex: 1 1 0;
     min-width: 0;
@@ -90,7 +90,7 @@ button{
     align-self: flex-start;
 }
 
-#s {
+.s {
     height: 200px;
     width:auto;
 }
@@ -168,7 +168,7 @@ h3 {
 
 p{
     margin:0;
-}
+}lh
 
 .Products-section{
     padding:50px
@@ -228,7 +228,7 @@ h4{
 }
 
 
-@media screen and (max-width: 726px) {
+@media screen and (max-width: 769px) {
     .Products{
         flex-direction: column;
         align-items: center;
@@ -241,5 +241,32 @@ h4{
     .lh{
         flex-direction: column;
         align-items: flex-start;
+        padding:0%;
+        margin: 22% 0;
+    
     }
 }
+
+@media  screen and (max-width: 700px) {
+    ul {
+        display:none;
+
+    }
+    .uhl{
+        padding-left: 0%;
+    }    
+    .uh{
+        padding-left: 0;
+        padding-right: 0%;
+        margin: 0 auto;
+    }
+    .sanatan{
+        align-self: center;
+    }
+
+    .s{
+        width: auto;
+        height: 180px;
+    }
+ }
+
